@@ -1,0 +1,24 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Primary Colors */
+  --primary-red: #C60C30;
+  --primary-blue: #003478;
+
+  /* Secondary Colors */
+  --secondary-white: #FFFFFF;
+  --secondary-black: #000000;
+
+  /* Accent Colors */
+  --accent-light-grey: #F2F2F2;
+  --accent-muted-grey: #D6D6D6;
+}
+
+body{
+  background-color: var(--secondary-white);
+  color: var(--secondary-white);
+}
